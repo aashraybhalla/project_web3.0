@@ -1,0 +1,83 @@
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gradient-bg-welcome {
+  background-color:#000000;
+  background-image: 
+    radial-gradient(at 0% 0%, rgb(43, 37, 74) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, rgb(0, 18, 73) 0, transparent 50%), 
+    radial-gradient(at 100% 0%, rgb(53, 3, 20) 0, transparent 50%);
+}
+
+.gradient-bg-services {
+  background-color:#070025;
+  background-image: 
+    radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
+    radial-gradient(at 50% 100%, hsla(225,39%,25%,1) 0, transparent 50%);
+}
+
+.gradient-bg-transactions {
+  background-color: #010003;
+  background-image: 
+    radial-gradient(at 0% 100%, hsla(253,16%,7%,1) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, hsla(225,39%,25%,1) 0, transparent 50%);
+}
+
+.gradient-bg-footer {
+  background-color: #141414;
+  background-image: 
+    radial-gradient(at 0% 100%, rgb(5, 0, 30) 0, transparent 53%), 
+    radial-gradient(at 50% 150%, rgb(59, 0, 21) 0, transparent 50%);
+}
+
+.blue-glassmorphism {
+  background: rgb(39, 51, 89, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* white glassmorphism */
+.white-glassmorphism {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.eth-card {
+  background-color:#baa700;
+  background-image: 
+    radial-gradient(at 83% 67%, rgb(6, 17, 7) 0, transparent 58%), 
+    radial-gradient(at 67% 20%, rgb(77, 0, 4) 0, transparent 59%), 
+    radial-gradient(at 88% 35%, rgb(62, 120, 255) 0, transparent 50%), 
+    radial-gradient(at 31% 91%, rgb(255, 94, 65) 0, transparent 52%), 
+    radial-gradient(at 27% 71%, rgb(174, 0, 70) 0, transparent 49%), 
+    radial-gradient(at 74% 89%, hsla(30,98%,65%,1) 0, transparent 51%), 
+    radial-gradient(at 53% 75%, rgb(0, 207, 187) 0, transparent 45%);
+}
+
+.text-gradient {
+  background-color: #fff;
+  background-image: radial-gradient(at 4% 36%, hsla(0,0%,100%,1) 0, transparent 53%), radial-gradient(at 100% 60%, rgb(0, 0, 0) 0, transparent 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
